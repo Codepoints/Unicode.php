@@ -1,0 +1,21 @@
+{
+    "name": "codepoints/unicode",
+    "description": "A PHP library for Unicode concepts like blocks, planes or codepoints",
+    "keywords": ["unicode"],
+    "homepage": "https://github.com/Codepoints/Unicode.php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manuel Strehl",
+            "email": "info@manuel-strehl.de",
+            "homepage": "http://www.manuel-strehl.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": { "Codepoints": "src/" }
+    }
+}
